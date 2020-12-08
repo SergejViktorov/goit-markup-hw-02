@@ -1,1 +1,10 @@
-
+body {
+  font-family: "Roboto";
+  color: #212121;
+}
+.logo {
+  color: #000;
+  font-family: Raleway;
+  font-style: normal;
+  color: tomato;
+}
