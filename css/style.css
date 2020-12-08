@@ -1,10 +1,30 @@
 body {
   font-family: "Roboto";
+  font-size: 14px;
   color: #212121;
 }
+header {
+}
 .logo {
-  color: #000;
-  font-family: Raleway;
-  font-style: normal;
-  color: tomato;
+  color: #000000;
+  font-family: "Raleway";
+  font-weight: 700;
+}
+.logo-start {
+  color: #2196f3;
+}
+.list-nav {
+  font-weight: 500;
+  color: #212121;
+}
+.link-nav: hover;
+.link-nav :focus {
+   {
+    color: yellow;
+  }
+
+  color: #2196f3;
+}
+.link-nav :active {
+  color: #2196f3;
 }
