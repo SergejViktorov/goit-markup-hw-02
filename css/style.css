@@ -13,18 +13,21 @@ header {
 .logo-start {
   color: #2196f3;
 }
-.list-nav {
-  font-weight: 500;
-  color: #212121;
-}
-.link-nav: hover;
-.link-nav :focus {
-   {
-    color: yellow;
+li {
+  list-style: none;
+  a {
+    text-decoration: none;
   }
-
-  color: #2196f3;
 }
-.link-nav :active {
+.nav-link {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.nav-link :hover,
+.nav-link :focus {
   color: #2196f3;
 }
