@@ -1,33 +1,143 @@
+}
 body {
+  background-color :#ffffff;
   font-family: "Roboto";
+  font-weight: 400;
   font-size: 14px;
+  font-style: normal;
   color: #212121;
 }
-header {
+li {
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+address{
+  color: #FFFFFF;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+header{
+  font-weight: 500;
+  font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+font-family: "Roboto";
+font-style: normal;
 }
 .logo {
   color: #000000;
   font-family: "Raleway";
-  font-weight: 700;
+  font-weight: 400;
+  font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+
 }
 .logo-start {
   color: #2196f3;
 }
-li {
-  list-style: none;
-  a {
-    text-decoration: none;
-  }
-}
+
 .nav-link {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
+color:   #212121;
+;
 }
 .nav-link :hover,
 .nav-link :focus {
   color: #2196f3;
+}
+.header-link {
+  color: #757575;
+;
+}
+.header-link:hover,
+.header-link:focus {
+  color: #2196f3;
+}
+
+/**hero**/
+.hero {
+  background: #2f303a;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
+}
+.title-hero {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-weight: 700;
+  line-height: 30px
+   font-size: 16px;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+}
+.details { 
+
+  color: #757575;
+ font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+.title-details{
+  color: #212121;
+  font-weight: 700;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.title-section{
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.command{
+background: #F5F4FA;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.name{
+
+color: #212121;
+font-weight: 500;
+}
+.position {
+  color: #757575;
+  font-weight: 500;
+  }
+/*footer*/
+footer{
+  background-color: #2F303A;
+  text-decoration: none;
+}
+.logo-footer{
+  color: #FFFFFF;
+font-family: "Raleway";
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+}
+.address-link{
+color: rgba(255, 255, 255, 0.6);
+}
+.address-link :hover,
+.address-link :focus {
+color: #2196f3;
 }
