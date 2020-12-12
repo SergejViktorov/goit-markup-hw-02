@@ -11,13 +11,14 @@
 body {
   background-color: var(--secondary-accent-color);
   color: var(--primery-text-color);
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 14px;
+  letter-spacing: 0.03em;
 }
 header {
   font-weight: 500;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
 li {
@@ -28,18 +29,16 @@ a {
 }
 address {
   color: var(--secondary-accent-color);
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.7;
   font-style: normal;
 }
 
 .logo {
   color: var(--logo-head-color);
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 .logo-start {
   color: var(--accent-color);
@@ -73,7 +72,7 @@ address {
 .title-hero {
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
@@ -82,22 +81,20 @@ address {
   background-color: var(--accent-color);
   color: var(--secondary-accent-color);
   font-weight: 700;
-  line-height: 30px;
   font-size: 16px;
+  line-height: 1.88;
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
 }
 /* секция преимущество */
 .details {
-  letter-spacing: 0.03em;
 }
 .title-section {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .title {
   font-weight: 700;
@@ -107,16 +104,15 @@ address {
 .text {
   color: var(--secondary-text-color);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
 }
 
 /* контакты команды */
 .command {
   background: var(--lite-background-color);
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .name {
   font-weight: 500;
@@ -132,11 +128,9 @@ footer {
 }
 .logo-footer {
   color: var(--secondary-accent-color);
-  font-family: "Raleway";
-  font-weight: 700;
+  font-family: "Raleway", sans-serif;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.2;
 }
 .address-link {
   color: var(--footer-contacts);
@@ -153,9 +147,8 @@ footer {
   color: var(--primery-text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 .button :hover,
 .button :focus {
@@ -165,13 +158,12 @@ footer {
 .title-partfolio {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
 .text-partfolio {
   color: var(--secondary-text-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
+  line-height: 1.9;
 }
