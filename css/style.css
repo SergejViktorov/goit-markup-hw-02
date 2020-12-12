@@ -150,13 +150,10 @@ footer {
   font-size: 16px;
   line-height: 1.6;
 }
-.button :hover,
-.button :focus {
+.button:hover,
+.button:focus {
   color: var(--secondary-accent-color);
   background-color: var(--accent-color);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
 }
 /*  */
 .title-partfolio {
