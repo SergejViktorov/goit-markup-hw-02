@@ -58,6 +58,7 @@ address {
 
   padding-left: 15px;
   padding-right: 15px;
+  flex-wrap: wrap;
 }
 header .contaner {
   display: flex;
@@ -118,6 +119,7 @@ header .contaner {
   font-weight: 400;
 }
 .title-hero {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -126,6 +128,7 @@ header .contaner {
   text-transform: uppercase;
 }
 .title-button {
+  border-radius: 4px;
   background-color: var(--accent-color);
   color: var(--secondary-accent-color);
   cursor: pointer;
