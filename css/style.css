@@ -21,6 +21,7 @@ p {
 ul {
   margin-top: 0;
   margin-bottom: 0;
+  margin-right: 0;
 }
 body {
   background-color: var(--secondary-accent-color);
@@ -46,14 +47,24 @@ address {
   line-height: 1.7;
   font-style: normal;
 }
-
+/* header */
 .contaner {
   display: flex;
   align-items: center;
   width: 1230px;
-  margin: 0 auto;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+
   padding-left: 15px;
   padding-right: 15px;
+}
+header .contaner {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  display: flex;
+  align-items: center;
 }
 .logo {
   margin-right: 93px;
@@ -116,6 +127,7 @@ address {
 .title-button {
   background-color: var(--accent-color);
   color: var(--secondary-accent-color);
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -188,6 +200,7 @@ footer {
 }
 
 .button {
+  cursor: pointer;
   color: var(--primery-text-color);
   background-color: var(--lite-background-color);
   font-weight: 500;
