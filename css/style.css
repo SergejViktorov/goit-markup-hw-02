@@ -11,6 +11,8 @@
 h1,
 h2,
 h3 {
+  margin-left: 0;
+  margin-right: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -48,8 +50,16 @@ address {
   line-height: 1.7;
   font-style: normal;
 }
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
 /* header */
 .contaner {
+  display: block;
   align-items: center;
   width: 1200px;
   margin-right: 0 auto;
@@ -111,15 +121,17 @@ header .contaner {
 
 /**hero**/
 .hero {
-  margin-left: 0 auto;
-  margin-right: 0 auto;
-  margin-bottom: 94px;
+  display: block;
   background: var(--dark-background-color);
   color: var(--secondary-accent-color);
   text-align: center;
   font-weight: 400;
 }
 .title-hero {
+  padding-top: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
   margin-bottom: 30px;
   width: 696px;
   font-weight: 900;
@@ -127,9 +139,12 @@ header .contaner {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
 }
 .title-button {
+  margin-bottom: 200px;
   border-radius: 4px;
+  border-color: var(--accent-color);
   background-color: var(--accent-color);
   color: var(--secondary-accent-color);
   cursor: pointer;
@@ -144,11 +159,19 @@ header .contaner {
 }
 .list-details {
   display: flex;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 .list-details .item {
   width: 270px;
 }
+.list-details .item:not(:last-child) {
+  margin-right: 30px;
+}
 /* activyty */
+.activity {
+  padding-bottom: 94px;
+}
 .title-section {
   margin-bottom: 50px;
   font-weight: 700;
@@ -163,6 +186,7 @@ header .contaner {
   margin-right: 30px;
 }
 .title {
+  padding-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -177,13 +201,15 @@ header .contaner {
 /* контакты команды */
 .command-list {
   display: flex;
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 .command-list .item:not(:last-child) {
   margin-right: 30px;
 }
 .command-list .item {
+  border-radius: 0px 0px 4px 4px;
   width: 270px;
+  background-color: var(--secondary-accent-color);
 }
 .command {
   background: var(--lite-background-color);
@@ -191,18 +217,20 @@ header .contaner {
   line-height: 1.19;
   text-align: center;
 }
-.command-contaner {
-  margin-bottom: 94px;
-}
+
 .name {
   font-weight: 500;
+  padding-top: 30px;
+  padding-bottom: 10px;
 }
 .position {
   color: var(--secondary-text-color);
+  padding-bottom: 30px;
 }
 
 /*footer*/
 footer {
+  display: block;
   background-color: var(--dark-background-color);
   text-decoration: none;
 }
