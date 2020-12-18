@@ -46,9 +46,12 @@ a {
   text-decoration: none;
 }
 address {
+  padding-bottom: 60px;
   color: var(--secondary-accent-color);
   line-height: 1.7;
   font-style: normal;
+  display: block;
+  width: 231px;
 }
 .visually-hidden {
   position: absolute;
@@ -235,10 +238,15 @@ footer {
   text-decoration: none;
 }
 .logo-footer {
+  padding-top: 60px;
+  margin-bottom: 20px;
   color: var(--secondary-accent-color);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.2;
+}
+.link .logo-footer {
+  display: block;
 }
 .address-link {
   color: var(--footer-contacts);
@@ -247,15 +255,24 @@ footer {
 .address-link:focus {
   color: var(--accent-color);
 }
+.portfolio .container {
+  margin-top: 94px;
+}
+
 /* список кнопок портфолио*/
 .buttons-menu {
   display: flex;
+  width: 611px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 87px;
+  margin-bottom: 56px;
 }
-.buttons-menu .button:not(:last-child) {
+.buttons-menu .button {
   margin-right: 8px;
 }
 .button {
-  display: block;
+  border-color: transparent;
   border-radius: 4px;
   cursor: pointer;
   color: var(--primery-text-color);
@@ -263,6 +280,7 @@ footer {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
+  text-align: center;
 }
 .button:hover,
 .button:focus {
@@ -273,6 +291,7 @@ footer {
 .flex-container {
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 94px;
 }
 .flex-container .list:not(:nth-child(3n)) {
   margin-right: 30px;
