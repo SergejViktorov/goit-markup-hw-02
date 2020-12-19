@@ -159,8 +159,6 @@ header .contaner {
   letter-spacing: 0.06em;
 }
 /* секция преимущество */
-.details {
-}
 .list-details {
   display: flex;
   padding-bottom: 94px;
@@ -268,15 +266,15 @@ footer {
   margin-right: auto;
   margin-top: 87px;
   margin-bottom: 56px;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 .buttons-menu .button {
   margin-right: 8px;
 }
 .button {
-  border-color: transparent;
   border-radius: 4px;
+  border-color: transparent;
   cursor: pointer;
   color: var(--primery-text-color);
   background-color: var(--lite-background-color);
