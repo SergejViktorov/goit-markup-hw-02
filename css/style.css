@@ -260,16 +260,12 @@ footer {
 
 /* список кнопок портфолио*/
 .buttons-menu {
-  justify-content: center;
-  align-items: center;
   display: flex;
   width: 611px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 87px;
   margin-bottom: 56px;
-  justify-content: center;
-  align-items: center;
 }
 .buttons-menu .button {
   margin-right: 8px;
